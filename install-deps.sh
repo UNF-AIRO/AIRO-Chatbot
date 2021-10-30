@@ -11,8 +11,11 @@ virtualenv chatbot-environment
 cd chatbot-environment
 
 
+## Change to bash 
+bash 
+
 ## Activate it
-scripts/activate
+source chatbot-environment/bin/activate
 
 
 
