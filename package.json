@@ -1,0 +1,19 @@
+{
+  "name": "airo-chatbot",
+  "version": "1.0.0",
+  "description": "Description Later....",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UNF-AIRO/AIRO-Chatbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UNF-AIRO/AIRO-Chatbot/issues"
+  },
+  "homepage": "https://github.com/UNF-AIRO/AIRO-Chatbot#readme"
+}
