@@ -13,7 +13,7 @@ this program.
 
 # Installation
 ```
-git clone https://github.com/senalbulumulle/AIRO-Chatbot/
+git clone https://github.com/UNF-AIRO/AIRO-Chatbot/
 ```
 
 
@@ -27,6 +27,8 @@ Please make sure your shell environment is either bash or zsh.
 python3 -m venv chatbot_virtual_environment
 
 source chatbot_virtual_environment/bin/activate
+
+pip3 install tensorflow
 
 pip3 install keras
 
