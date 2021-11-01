@@ -150,20 +150,20 @@ body {
   color: white;
 }
 .FOIL-button:hover {
-  box-shadow: 0 12px 16px 0 rgb(1, 208, 67), 0 17px 50px 0 rgb(1, 208, 67);
-  background-color: rgb(1, 208, 67);
+  box-shadow: 0 3px 4px 0 #30336B, 0 9px 25px 0 #30336B;
+  background-color: #30336B;
   color: white;
 }
 .FOIL-button:active {
-  box-shadow: 0 12px 16px 0 rgb(255, 0, 0), 0 17px 50px 0 rgb(255, 0, 0);
-  background-color: red;
+  box-shadow: 0 3px 4px 0 #130F40, 0 9px 25px 0 #130F40;
+  background-color: #130F40;
   color: white;
 }
 /*****************************************************
          Button Small DIV Class 
 *******************************************************/
 .FOIL-button-small {
-  background-color: gray;
+  background-color: #30336B;
   border: none;
   color: white;
   padding: 10px 22px;
@@ -174,7 +174,6 @@ body {
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.2s;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.459), 0 20px 20px 0 rgba(61, 61, 61, 0.589);
 }
 /*****************************************************
          Button Small Color Substitutes 
@@ -212,13 +211,13 @@ body {
   color: white;
 }
 .FOIL-button-small:hover {
-  box-shadow: 0 12px 16px 0 rgb(1, 208, 67), 0 17px 50px 0 rgb(1, 208, 67);
-  background-color: rgb(1, 208, 67);
+  box-shadow: 0 10px 10px 0 #30336B, 0 10px 10px 0, #30336B;
+  background-color: #30336B;
   color: white;
 }
 .FOIL-button-small:active {
-  box-shadow: 0 12px 16px 0 rgb(255, 0, 0), 0 17px 50px 0 rgb(255, 0, 0);
-  background-color: red;
+  box-shadow: 0 10px 10px 0 #130F40, 0 10px 10px 0, #130F40;
+  background-color: #130F40;
   color: white;
 }
 /*****************************************************
