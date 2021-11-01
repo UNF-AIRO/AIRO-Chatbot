@@ -1,0 +1,63 @@
+/**********************************************************************
+*               custom.css 
+***********************************************************************/
+
+
+@import url('FOIL-UI.css');
+
+
+
+.FOIL-button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.459), 0 20px 20px 0 rgba(61, 61, 61, 0.589);
+}
+
+.FOIL-button:hover {
+  box-shadow: 0 3px 4px 0 #30336B, 0 9px 25px 0 #30336B;
+  background-color: #30336B;
+  color: white;
+}
+.FOIL-button:active {
+  box-shadow: 0 3px 4px 0 #130F40, 0 9px 25px 0 #130F40;
+  background-color: #130F40;
+  color: white;
+}
+
+
+
+
+.FOIL-button-small {
+  background-color: #30336B;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+}
+
+
+.FOIL-button-small:hover {
+  box-shadow: #5c60ae8c 0px 7px 29px 0px;
+  background-color: #30336B;
+  color: white;
+}
+.FOIL-button-small:active {
+  box-shadow: #5c60ae8c 0px 7px 29px 0px;
+  background-color: #130F40;
+  color: white;
+}
