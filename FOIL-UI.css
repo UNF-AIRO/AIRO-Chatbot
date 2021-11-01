@@ -211,21 +211,22 @@ body {
   color: white;
 }
 .FOIL-button-small:hover {
-  box-shadow: 0 10px 10px 0 #30336B, 0 10px 10px 0, #30336B;
+  box-shadow: #5c60ae8c 0px 7px 29px 0px;
   background-color: #30336B;
   color: white;
 }
 .FOIL-button-small:active {
-  box-shadow: 0 10px 10px 0 #130F40, 0 10px 10px 0, #130F40;
+  box-shadow: #5c60ae8c 0px 7px 29px 0px;
   background-color: #130F40;
   color: white;
 }
+
 /*****************************************************
          Layout DIV Class
 *******************************************************/
 .FOIL-Layout {
   background-color:transparent;
-  color:black;
+  color:white;
   padding: 10em 1em;
   position: relative;
   z-index: 2;
