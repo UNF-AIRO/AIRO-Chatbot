@@ -1,0 +1,156 @@
+/**********************************************************************
+*               custom.css 
+***********************************************************************/
+
+
+@import url('FOIL-UI.css');
+
+
+
+.FOIL-button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  box-shadow: 0 2px 2px 0 #30336b9e, 0 20px 20px 0 #30336b9e;
+}
+
+.FOIL-button:hover {
+  box-shadow: 0 3px 4px 0 #30336B, 0 9px 25px 0 #30336B;
+  background-color: #30336B;
+  color: white;
+}
+.FOIL-button:active {
+  box-shadow: 0 3px 4px 0 #130F40, 0 9px 25px 0 #130F40;
+  background-color: #130F40;
+  color: white;
+}
+
+
+
+
+.FOIL-button-small {
+  background-color: #30336B;
+  border: none;
+  box-shadow: 0 2px 2px 0 #30336b9e, 0 20px 20px 0 #30336b9e;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+}
+
+
+.FOIL-button-small:hover {
+  box-shadow: #5c60ae8c 0px 7px 29px 0px;
+  background-color: #30336B;
+  color: white;
+}
+.FOIL-button-small:active {
+  box-shadow: #5c60ae8c 0px 7px 29px 0px;
+  background-color: #130F40;
+  color: white;
+}
+
+.FOIL-layout {
+  background-color: white;
+}
+body {
+  color: white;
+  background-color: #4F8BF9;
+}
+
+.stButton>button {
+  background-image: linear-gradient( to right bottom, #47E6B1, #47E6C9);
+  color: white;
+  
+}
+.stButton>button:focus:not(:active) {
+  border-color: #ffffff;
+  box-shadow: none;
+  color: #ffffff;
+  background-color: #0066cc;
+  }
+  .stButton>button:focus(:active) {
+  border-color: white;
+  box-shadow: none;
+  color: white;
+  background-color: #0066cc;
+  }
+  .stButton>button:focus(:active){
+  background-color: #0066cc;
+  border-color: white;
+  box-shadow: none;
+  color:white;
+  background-color: #0066cc;
+  }
+.stTextInput>div>div>input {
+  
+}
+
+.stHeader {
+  color: #4F8BF9;
+}
+.stButton>button:hover{color:white;}
+
+.stButton>button:focus{color:white;}
+
+
+.chat {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.messages {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  border-radius: 60px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.yours {
+  align-items: flex-start;
+}
+
+.yours .message {
+  border-radius: 60px;
+  margin-right: 25%;
+  color: white;
+  background-color: #47E6B1;
+  position: relative;
+}
+
+
+
+.mine {
+  align-items: flex-end;
+}
+
+.mine .message {
+  border-radius: 60px;
+  color: white;
+  margin-left: 25%;
+  background: linear-gradient(to bottom, #00D0EA 0%, #0085D1 100%);
+  background-attachment: fixed;
+  position: relative;
+}
