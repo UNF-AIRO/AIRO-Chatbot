@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/UNF-AIRO/AIRO-Chatbot#readme",
   "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.61",
     "electron-packager": "^15.4.0"
   }
 }
