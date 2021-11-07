@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/UNF-AIRO/AIRO-Chatbot/issues"
   },
-  "homepage": "https://github.com/UNF-AIRO/AIRO-Chatbot#readme"
+  "homepage": "https://github.com/UNF-AIRO/AIRO-Chatbot#readme",
+  "devDependencies": {
+    "electron-packager": "^15.4.0"
+  }
 }
