@@ -1,6 +1,6 @@
 # AIRO-Chatbot
-AIRO-Chatbot is an Ultra-Luxury System that allows students, and staff members at UNF to 
-ask questions about technical issues, or other questions at UNF. 
+AIRO-Chatbot allows students, and staff members at UNF to ask questions about technical issues, 
+or other questions at UNF. 
 
 
 # Features
