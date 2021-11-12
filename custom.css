@@ -5,6 +5,22 @@
 
 @import url('FOIL-UI.css');
 
+body {
+  color: white;
+  background-color: #4F8BF9; 
+}
+
+
+
+/**********************************************************************
+*               Custom Parameters
+***********************************************************************/
+
+
+/*********************************************
+*		Regular Buttons
+*
+**********************************************/
 
 
 .FOIL-button {
@@ -22,9 +38,11 @@
   box-shadow: 0 2px 2px 0 #30336b9e, 0 20px 20px 0 #30336b9e;
 }
 
+
 .FOIL-button:hover {
   box-shadow: 0 3px 4px 0 #30336B, 0 9px 25px 0 #30336B;
   background-color: #30336B;
+  font-size: 160px;
   color: white;
 }
 .FOIL-button:active {
@@ -66,10 +84,12 @@
 .FOIL-layout {
   background-color: white;
 }
-body {
-  color: white;
-  background-color: #4F8BF9;
-}
+
+
+
+/******************************************************************************************
+*				
+*******************************************************************************************/
 
 .stButton>button {
   background-image: linear-gradient( to right bottom, #47E6B1, #47E6C9);
