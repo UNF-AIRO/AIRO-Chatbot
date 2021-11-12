@@ -1,0 +1,24 @@
+/**********************************************************************
+*               animations.css 
+***********************************************************************/
+
+
+@import url('FOIL-UI.css');
+
+
+
+/* This div tag is used to animate the screen more */
+div {
+    animation-name: div_animated;
+    animation-duration: 2s;
+}
+
+@keyframes div_animated {
+    from {
+        font-size: 900px;
+    }
+
+    to {
+        font-size: auto;
+    }
+}
