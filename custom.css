@@ -41,8 +41,7 @@ body {
 
 .FOIL-button:hover {
   box-shadow: 0 3px 4px 0 #30336B, 0 9px 25px 0 #30336B;
-  background-color: #30336B;
-  font-size: 160px;
+  background-color: #30336B;å
   color: white;
 }
 .FOIL-button:active {
